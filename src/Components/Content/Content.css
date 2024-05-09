@@ -1,0 +1,143 @@
+.content h2{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #072197;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 60px 170px;
+    text-transform: capitalize;
+}
+
+.content-main {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.content-main li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.content-main hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #072197;
+}
+
+.container {
+    background-color: #072197;
+    width: 800px;
+    height: 485px;
+    margin-top: 40px;
+    margin-left: 425px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+}
+
+.bulb {
+    width: 60px;
+    height: 60px ;
+   margin-left: 20px;
+}
+
+.sound{
+    width: 60px;
+    height: 60px;
+    margin-left: 700px;
+    margin-top: -50px;
+}
+
+.content-last{
+    display: flex;
+}
+
+.content-last h1{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.refresh{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+.right{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.left{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.expand{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.footer{
+    display: flex;
+    margin: 110px 170px;
+}
+.footer h6{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    box-shadow: 0px 0px 5px 3px #252547;
+    border-radius: 110px;
+}
+
+.name{
+    width: 170px;
+    margin-top: 30px;
+    margin-left: -130px;
+}
+
+.add{
+    width: 50px;
+    height: 50px;
+    margin-left: 800px;
+
+}
+
+.footer h3{
+    font-size: 25px;
+    padding: 4px ;
+    color: #072197;
+}
